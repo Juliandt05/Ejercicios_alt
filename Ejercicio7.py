@@ -10,7 +10,7 @@ if(exp>0):
 elif(exp==0):
     print("El resultado es 1")
 else:
-    while (exp>=1):
+    while (exp<=-1):
         res=res*base
-        exp=exp+1
-    print("El resultado de la potencia es",1/res)
+        exp=exp+2
+    print("El resultado de la potencia es","1 / ", res)
