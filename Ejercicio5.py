@@ -1,14 +1,17 @@
-fin=0
-while (fin==0):
-    nom=str(input("Dime tu usuario "))
-    contr=str(input("Dime la contraseña "))
+from pathlib import PureWindowsPath
 
-    if (nom=="Pepe"):
-        if(contr=="asdasd"):
-            print("Has entrado al sistema")
-            fin=1
-        else:
-            print("Error contraseña")
-    else:
-        print("Error usuario")
+
+usuSec="Pepe"
+passSec="asdasd"
+
+usu = input("Dime tu ususario: ")
+password = input("Dime tu contraseña: ")
+
+while (usuSec!=usu or passSec!=password):
+    if (usuSecreto!=usuario):
+        print("Error en el usuario")
+        usu = input("Dime tu ususario: ")
+    elif (passSec!=password):
+        print("Error en el password")
+        password = input("Dime tu password: ")
     
