@@ -14,3 +14,4 @@ else:
         res=res*base
         exp=exp+2
     print("El resultado de la potencia es","1 / ", res)
+#Esta realmente correcto,Enhorabuena#

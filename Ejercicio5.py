@@ -8,7 +8,7 @@ usu = input("Dime tu ususario: ")
 password = input("Dime tu contraseña: ")
 
 while (usuSec!=usu or passSec!=password):
-    if (usuSecreto!=usuario):
+    if (usuSecreto!=usuario):#¿Porque sale error?#
         print("Error en el usuario")
         usu = input("Dime tu ususario: ")
     elif (passSec!=password):

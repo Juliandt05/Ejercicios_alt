@@ -11,3 +11,4 @@ print("El orden de mayor a menor es",lista)
 print("El mayor de la lista es",lista[0])
 ultimo=len(lista)
 print("El menor de la lista es",lista[ultimo-1])
+#Esta realmente correcto,Enhorabuena#
